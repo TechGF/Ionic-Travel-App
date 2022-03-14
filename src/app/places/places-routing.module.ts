@@ -28,7 +28,7 @@ const routes: Routes = [
         ],
       },
       {
-        path: 'offer',
+        path: 'offers',
         children: [
           {
             path: '',
