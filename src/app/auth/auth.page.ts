@@ -17,4 +17,9 @@ export class AuthPage implements OnInit {
     //after login, direct to discover
     this.router.navigateByUrl('/places/tabs/discover');
   }
+
+  onSignup() {
+    this.authService.signup();
+    this.router.navigateByUrl('places/tabs/discover');
+  }
 }

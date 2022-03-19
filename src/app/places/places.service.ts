@@ -15,7 +15,7 @@ export class PlacesService {
     ),
     new Place(
       'p2',
-      '"Amour Toujours',
+      'Amour Toujours',
       'A romantic place in Paris!',
       'https://miro.medium.com/max/1200/1*t-nXIcaD3oP6CS4ydXV1xw.jpeg',
       189.99
